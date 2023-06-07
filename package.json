@@ -1,0 +1,34 @@
+{
+  "name": "novu-in-app",
+  "description": "Using Novu for in-app notifications.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@novu/headless": "^0.15.0",
+    "@novu/node": "^0.14.0",
+    "@novu/notification-center": "^0.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fiyin-Anne/novu-in-app.git"
+  },
+  "keywords": [
+    "notification",
+    "novu",
+    "in-app"
+  ],
+  "author": "Fiyin Akinsiku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fiyin-Anne/novu-in-app/issues"
+  },
+  "homepage": "https://github.com/Fiyin-Anne/novu-in-app#readme"
+}
